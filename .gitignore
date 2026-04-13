@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.dylib
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Environments
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model artifacts
+weights/*.pt
+weights/*.pth
+weights/*.bin
+weights/*.ckpt
+
+# Experiment outputs
+experiments/**/outputs/
+experiments/**/runs/
+experiments/**/logs/
+
+# OS and editor
+.DS_Store
+.vscode/
