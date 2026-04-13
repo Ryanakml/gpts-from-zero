@@ -1,4 +1,4 @@
-# Gpts From Zero
+# Gpt`s From Zero
 
 gpts from zero is my personal, modular playground for learning how GPT-style models work from first principles. This project is a rebuild and exploration inspired by the excellent [Build a Large Language Model (From Scratch)](https://github.com/rasbt/LLMs-from-scratch) book and repository by Sebastian Raschka.
 
