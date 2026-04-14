@@ -3,6 +3,10 @@
 # Exit on error
 set -e
 
+# Always run from this script's directory
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$SCRIPT_DIR"
+
 echo "Setting up Python environment for gpts-from-zero..."
 
 # Check if venv already exists
@@ -40,6 +44,9 @@ echo "Setup complete."
 echo "----------------------------------------"
 echo "To activate this environment next time, run:"
 echo "source venv/bin/activate"
-echo "Then start JupyterLab with:"
-echo "jupyter lab"
+echo "Starting JupyterLab..."
 echo "----------------------------------------"
+echo "Welcome Ryan! Happy coding - let's build GPTs from scratch."
+echo "----------------------------------------"
+
+exec jupyter lab
